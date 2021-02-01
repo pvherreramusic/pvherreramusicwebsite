@@ -57,8 +57,7 @@ const Music = () => (
 
 
 <h1>Soundcloud Tracks</h1>
-<Iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/949854043&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true">/></Iframe>
-<div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/p-v-herrera" title="P.V. Herrera" target="_blank" style="color: #cccccc; text-decoration: none;">P.V. Herrera</a> · <a href="https://soundcloud.com/p-v-herrera/big-tough" title="Big Tough" target="_blank" style="color: #cccccc; text-decoration: none;">Big Tough</a></div>
+<Iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/949854043&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true">/></Iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/p-v-herrera" title="P.V. Herrera" target="_blank" style="color: #cccccc; text-decoration: none;">P.V. Herrera</a> · <a href="https://soundcloud.com/p-v-herrera/big-tough" title="Big Tough" target="_blank" style="color: #cccccc; text-decoration: none;">Big Tough</a></div>
 
 
 </div>
