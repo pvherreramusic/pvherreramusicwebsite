@@ -7,6 +7,7 @@ const Footer = () => {
   let Bandcamp="https://pvherreramusic.bandcamp.com";
   let Youtube = "https://www.youtube.com/channel/UCQfdibtYzntJgnVpcrnLXQg"
   let Instagram = "https://www.instagram.com/pvherreramusic/"
+  let GitHub = "https://github.com/pvherreramusic"
 
 
 
@@ -18,7 +19,7 @@ const Footer = () => {
       backgroundColor: 'Grey',
     }}
  textAlign='center' />
-        <Grid columns={3} doubling style ={{
+        <Grid columns={4} doubling style ={{
       backgroundColor: 'black',
     }}>
           <Grid.Column>
@@ -29,6 +30,9 @@ const Footer = () => {
           </Grid.Column>
           <Grid.Column>
           <a href={Instagram}>Instagram</a>
+          </Grid.Column>
+          <Grid.Column>
+          <a href={GitHub}>GitHub</a>
           </Grid.Column>
        
   
