@@ -27,6 +27,7 @@ const App = () => {
 
       
         <Route path="/" exact={true} component={Album} />
+        
         <Route path="/" exact={true} component={Footer} />
 
 

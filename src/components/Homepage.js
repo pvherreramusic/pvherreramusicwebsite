@@ -1,10 +1,26 @@
 import React from "react";
-import { Grid, Image } from "semantic-ui-react";
-import Iframe from 'react-iframe'
+import { Grid, Image, Feed } from "semantic-ui-react";
+
+
+
+const events = [
+ 
+<br></br>,
+<br></br>,
+  {
+    date: 'FEB 1 2021',
+    summary: ' New album will be out on Feb 28th. There will be 9 tracks on a CD but 8 tracks on the digital version.  Also, a new theme for my friends new film will be recorded as well. I hope you have a wonderful day! Thank you for visiting the new site and support.' 
+  },
+
+]
+
+
 
 const Homepage = () => (
 <div>
   <h1>WELCOME TO PV HERRERA MUSIC</h1>
+
+
 
 
 
@@ -23,9 +39,7 @@ const Homepage = () => (
   </Grid.Column>
 
   <Grid.Column width={6}>
-  <h1>NEWS</h1>
-  <p>WELCOME to the new site</p>
-  <p>New album will be out on Feb 28th. There will be 9 tracks on a CD but 8 tracks on the digital version.  Also, a new theme for my friends new film will be recorded as well. I hope you have a wonderful day!</p>
+  <Feed events={events} />
   </Grid.Column>
 
   </Grid.Row>
