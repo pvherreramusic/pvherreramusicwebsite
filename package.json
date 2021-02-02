@@ -17,15 +17,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pvherreramusic/EventPlanner.git"
+    "url": "git+//github.com/pvherreramusic/pvherrearmusicwebsite.git/"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/pvherreramusic/EventPlanner.git"
+    "url": "https://github.com/pvherreramusic/pvherrearmusicwebsite.git/"
   },
-  "homepage": "https://github.com/pvherreramusic/EventPlanner.git",
+  "homepage": "https://github.com/pvherreramusic/pvherrearmusicwebsite.git/",
   "devDependencies": {
     "@babel/core": "^7.10.5",
     "@babel/plugin-proposal-class-properties": "^7.10.4",
