@@ -1,29 +1,26 @@
-import React from 'react'
-import { Tab } from 'semantic-ui-react'
-import { Music, Homepage , JavaSc, ImageExampleGroupSize} from "./index";
+import React from "react";
+import { Tab } from "semantic-ui-react";
+import { Music, Homepage, JavaSc, ImageExampleGroupSize } from "./index";
 
 const panes = [
-  { menuItem: 'Home/News', render: () => <Homepage></Homepage>},
-  { menuItem: 'Music Content', render: () => <Music></Music> },
-  { menuItem: 'JavaScript Projects', render: () => <JavaSc></JavaSc>},
-  { menuItem: 'Pictures of P.V. Herrera by his Friends', render: () => <ImageExampleGroupSize></ImageExampleGroupSize>}
-  
-]
+  { menuItem: "Home/News", render: () => <Homepage></Homepage> },
+  { menuItem: "Music Content", render: () => <Music></Music> },
+  { menuItem: "JavaScript Projects", render: () => <JavaSc></JavaSc> },
+  {
+    menuItem: "Pictures of P.V. Herrera by his Friends",
+    render: () => <ImageExampleGroupSize></ImageExampleGroupSize>,
+  },
+];
 
 const Album = () => (
   <Tab
     menu={{ fluid: true, vertical: true }}
-    menuPosition='right'
+    menuPosition="right"
     panes={panes}
     style={{
-      backgroundColor: 'Aqua',
-  
+      backgroundColor: "Aqua",
     }}
   />
-  
+);
 
-
-  
-)
-
-export default Album
+export default Album;
