@@ -1,6 +1,7 @@
 import React from "react";
 import { Tab } from "semantic-ui-react";
 import { Music, Homepage, JavaSc, ImageExampleGroupSize } from "./index";
+import MusicFriends from "./MusicalFriends";
 
 const panes = [
   { menuItem: "Home/News", render: () => <Homepage></Homepage> },
@@ -9,6 +10,10 @@ const panes = [
   {
     menuItem: "Pictures of P.V. Herrera by his Friends",
     render: () => <ImageExampleGroupSize></ImageExampleGroupSize>,
+  },
+  {
+    menuItem: "Musical Friends you should check out",
+    render: () => <MusicFriends></MusicFriends>,
   },
 ];
 
