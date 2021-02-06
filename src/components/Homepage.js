@@ -5,6 +5,13 @@ const events = [
   <br></br>,
   <br></br>,
   {
+    date: "FEB 6 2021",
+    summary:
+      " Micheal Kudrna has informed me that he is editing the fim with the music as we speak. Looking forward to it.",
+  },
+  <br></br>,
+  <br></br>,
+  {
     date: "FEB 5 2021",
     summary:
       "The theme for Micheal Kudrna's film MALPRACTICE has been recorded. The film is in process of being edited. THe theme will be released the same day as film is",
@@ -16,13 +23,7 @@ const events = [
     summary:
       "Hey guys, I have added a page of musicians in my town that I think you should check out! Under the Musical Friends tab",
   },
-  <br></br>,
-  <br></br>,
-  {
-    date: "FEB 1 2021",
-    summary:
-      " New album will be out on Feb 28th. There will be 9 tracks on a CD but 8 tracks on the digital version.  Also, a new theme for my friends new film will be recorded as well. I hope you have a wonderful day! Thank you for visiting the new site and support.",
-  },
+  
 ];
 
 const Homepage = () => (
