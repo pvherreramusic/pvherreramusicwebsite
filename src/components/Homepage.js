@@ -7,7 +7,7 @@ const events = [
   {
     date: "FEB 5 2021",
     summary:
-      "The theme for Micheal Kudrna's film MALPRACTICE has been recorded. The film is in process of being edited. THe theme will be released the same day as film is release.",
+      "The theme for Micheal Kudrna's film MALPRACTICE has been recorded. The film is in process of being edited. THe theme will be released the same day as film is",
   },
   <br></br>,
   <br></br>,

@@ -2,8 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import ReactDOM from "react-dom";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-
-import {Album, Footer} from "./components";
+import {Album,} from "./components";
 
 const App = () => {
   const [user, setUser] = useState({});
@@ -28,7 +27,7 @@ const App = () => {
       
         <Route path="/" exact={true} component={Album} />
         
-        <Route path="/" exact={true} component={Footer} />
+       
 
 
          

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Grid, Header } from "semantic-ui-react";
+import { Grid } from "semantic-ui-react";
 
 const JavaSc = () => {
   const [state, setState] = useState(false);
@@ -10,7 +10,6 @@ const JavaSc = () => {
   return (
     <div>
       <br></br>
-      <Header />
       <Grid columns={3}>
         <Grid.Column>
           <a href={EventPlan}>Event Planner(Sept 2020)</a>

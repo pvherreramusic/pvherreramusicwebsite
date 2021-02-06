@@ -10,20 +10,16 @@ const Footer = () => {
 
   return (
     <div>
-      <br></br>
-      <Header
-        as="h3"
-        content="LINKS"
-        style={{
-          backgroundColor: "Grey",
-        }}
-        textAlign="center"
-      />
+      
+  
       <Grid
         columns={4}
-        doubling
+        textAlign="center"
         style={{
+          
           backgroundColor: "black",
+          position: "static"
+          
         }}
       >
         <Grid.Column>
@@ -39,6 +35,7 @@ const Footer = () => {
           <a href={GitHub}>GitHub</a>
         </Grid.Column>
       </Grid>
+  
     </div>
   );
 };
