@@ -5,6 +5,13 @@ const events = [
   <br></br>,
   <br></br>,
   {
+    date: "FEB 5 2021",
+    summary:
+      "The theme for Micheal Kudrna's film MALPRACTICE has been recorded. The film is in process of being edited. THe theme will be released the same day as film is release.",
+  },
+  <br></br>,
+  <br></br>,
+  {
     date: "FEB 4 2021",
     summary:
       "Hey guys, I have added a page of musicians in my town that I think you should check out! Under the Musical Friends tab",
