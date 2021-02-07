@@ -1,6 +1,7 @@
 import React from "react";
 import { Grid, Image, Feed } from "semantic-ui-react";
 
+
 const events = [
   <br></br>,
   <br></br>,
