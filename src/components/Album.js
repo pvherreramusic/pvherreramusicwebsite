@@ -1,6 +1,6 @@
 import React from "react";
 import { Tab } from "semantic-ui-react";
-import { Music, Homepage, JavaSc, ImageExampleGroupSize, Footer} from "./index";
+import { Music, Homepage, JavaSc, ImageExampleGroupSize, Footer, Contact} from "./index";
 import MusicFriends from "./MusicalFriends";
 
 
@@ -15,6 +15,10 @@ const panes = [
   {
     menuItem: "Musical Friends you should check out",
     render: () => <MusicFriends></MusicFriends>,
+  },
+  {
+    menuItem: "Contact Form",
+    render: () => <Contact></Contact>,
   },
 ];
 

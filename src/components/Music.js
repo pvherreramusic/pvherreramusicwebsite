@@ -1,6 +1,11 @@
 import React from "react";
 import { Grid, Image } from "semantic-ui-react";
 import Iframe from "react-iframe";
+import Comments from "./ContactForm";
+
+
+
+
 
 const Music = () => (
   <div>
@@ -108,7 +113,14 @@ const Music = () => (
         </Grid.Column>
       </Grid.Row>
     </Grid>
+
+  
+<Comments></Comments>
+
+
   </div>
+
+
 );
 
 export default Music;

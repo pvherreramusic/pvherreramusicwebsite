@@ -1,8 +1,8 @@
-import React, { useState } from "react";
+import React, {} from "react";
 import { Grid, Header } from "semantic-ui-react";
 
 const Footer = () => {
-  const [state, setState] = useState(false);
+
   let Bandcamp = "https://pvherreramusic.bandcamp.com";
   let Youtube = "https://www.youtube.com/channel/UCQfdibtYzntJgnVpcrnLXQg";
   let Instagram = "https://www.instagram.com/pvherreramusic/";
