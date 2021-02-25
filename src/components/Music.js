@@ -11,6 +11,7 @@ const Music = () => (
   <div>
     <h1>WELCOME TO PV HERRERA MUSIC</h1>
     <h2>PLEASE, ENJOY THE MUSIC</h2>
+    <h3>Please visit Bandcamp to buy a CD or Digital Download.</h3>
 
     <Grid columns={3}>
       <Grid.Row>
@@ -26,7 +27,7 @@ const Music = () => (
         </Grid.Column>
         <Grid.Column width={4}>
           <Iframe
-            url="https://open.spotify.com/embed/album/7JVudtvhxjCv2Uw1CJ1uah"
+            url="https://bandcamp.com/EmbeddedPlayer/album=1729143350/size=large/bgcol=ffffff/linkcol=0687f5/artwork=none/transparent=true/"
             width="320px"
             height="320px"
             id="myId"
@@ -50,7 +51,7 @@ const Music = () => (
         </Grid.Column>
         <Grid.Column width={4}>
           <Iframe
-            url="https://open.spotify.com/embed/album/2NDEyvBtaYl8mftqcgaKIo"
+            url="https://bandcamp.com/EmbeddedPlayer/album=1301991312/size=large/bgcol=ffffff/linkcol=0687f5/artwork=none/transparent=true/"
             width="320px"
             height="320px"
             id="myId"
@@ -72,37 +73,9 @@ const Music = () => (
             height="320px"
           />
         </Grid.Column>
-      </Grid.Row>
-
-      <h1>Soundcloud Tracks</h1>
-      <Grid.Row>
-        <Grid.Column width={6}>
-          <Iframe
-            url="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/949854043&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
-            width="320px"
-            height="320px"
-            id="myId"
-            className="myClassname"
-            display="initial"
-            position="relative"
-          />
-        </Grid.Column>
-
-        <Grid.Column width={6}>
-          <Iframe
-            url="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/966663577&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
-            width="320px"
-            height="320px"
-            id="myId"
-            className="myClassname"
-            display="initial"
-            position="relative"
-          />
-        </Grid.Column>
-
         <Grid.Column width={4}>
           <Iframe
-            url="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/966666784&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+            url="https://bandcamp.com/EmbeddedPlayer/album=40784967/size=large/bgcol=ffffff/linkcol=0687f5/artwork=none/transparent=true/"
             width="320px"
             height="320px"
             id="myId"
@@ -113,10 +86,6 @@ const Music = () => (
         </Grid.Column>
       </Grid.Row>
     </Grid>
-
-  
-<Comments></Comments>
-
 
   </div>
 
