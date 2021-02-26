@@ -75,7 +75,7 @@ const Music = () => (
         </Grid.Column>
         <Grid.Column width={4}>
           <Iframe
-            url="https://bandcamp.com/EmbeddedPlayer/album=40784967/size=large/bgcol=ffffff/linkcol=0687f5/artwork=none/transparent=true/"
+            url="https://bandcamp.com/EmbeddedPlayer/album=40784967/size=large/bgcol=ffffff/linkcol=0687f5/artwork=none/transparent=true/tracklist=true/tracks=533393158,2948037564,3772676358,601271290,2644100421,1285308926,2700745509,813243993/esig=e4c92d20a21f6b773d8e9a8a4f3aaef0/"
             width="320px"
             height="320px"
             id="myId"
