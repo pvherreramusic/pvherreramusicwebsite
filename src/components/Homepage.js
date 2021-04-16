@@ -1,28 +1,15 @@
 import React from "react";
-import { Grid, Image, Feed } from "semantic-ui-react";
+import { Grid, Image, Feed} from "semantic-ui-react";
+import Iframe from "react-iframe";
 
 
 const events = [
   <br></br>,
   <br></br>,
   {
-    date: "FEB 6 2021",
+    date: "April 16, 2021",
     summary:
-      " Micheal Kudrna has informed me that he is editing the fim with the music as we speak. Looking forward to it.",
-  },
-  <br></br>,
-  <br></br>,
-  {
-    date: "FEB 5 2021",
-    summary:
-      "The theme for Micheal Kudrna's film MALPRACTICE has been recorded. The film is in process of being edited. THe theme will be released the same day as film is",
-  },
-  <br></br>,
-  <br></br>,
-  {
-    date: "FEB 4 2021",
-    summary:
-      "Hey guys, I have added a page of musicians in my town that I think you should check out! Under the Musical Friends tab",
+      " New Album out: LINEAR SOUND INSTR.. 8 NOS songs written from 2007-2010 recorded and redone from 2020-2021. Enjoy.",
   },
   
 ];
@@ -45,6 +32,15 @@ const Homepage = () => (
 
         <Grid.Column width={6}>
           <Feed events={events} />
+          <Iframe
+            url="https://bandcamp.com/EmbeddedPlayer/album=40784967/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/"
+            width="320px"
+            height="320px"
+            id="myId"
+            className="myClassname"
+            display="initial"
+            position="relative"
+          />
         </Grid.Column>
       </Grid.Row>
     </Grid>
